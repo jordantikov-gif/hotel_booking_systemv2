@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="bg">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Хотел А - Sunnymoon</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            background-color: #003580;
+            font-family: Arial, Helvetica, sans-serif;
+            color: #ffffff;
+            padding: 20px;
+        }
+        .container { max-width: 1200px; }
+        .hotel-title { color: #ffffff; margin-bottom: 20px; font-size: 2rem; text-align: center; }
+        .hotel-description { color: #f0f0f0; font-size: 1rem; margin-bottom: 20px; }
+        .btn-register {
+            background-color: #fecb02;
+            color: #111;
+            font-weight: bold;
+            padding: 10px 20px;
+            border-radius: 8px;
+            border: none;
+            transition: 0.2s;
+            text-decoration: none;
+            display: block;
+            width: 100%;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .btn-register:hover { background-color: #ffde59; color: #111; text-decoration: none; }
+
+        .carousel-inner {
+            aspect-ratio: 16/9;
+            max-width: 100%;
+            margin: 0 auto;
+        }
+        .carousel-inner img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            border-radius: 12px;
+            background-color: #fefafa;
+            padding: 4px;
+        }
+
+        .amenities {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            margin-top: 15px;
+            justify-content: center;
+        }
+        .amenity {
+            background-color: #ffffff;
+            color: #111;
+            padding: 6px 12px;
+            border-radius: 8px;
+            font-size: 0.85rem;
+            font-weight: bold;
+            box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+        }
+
+        @media (max-width: 768px) {
+            .hotel-title { font-size: 1.5rem; }
+            .hotel-description { font-size: 0.9rem; }
+            .amenity { font-size: 0.75rem; padding: 4px 8px; }
+        }
+
+        @media (max-width: 480px) {
+            body { padding: 10px; }
+            .hotel-title { font-size: 1.3rem; }
+            .hotel-description { font-size: 0.85rem; }
+            .btn-register { padding: 8px 12px; }
+        }
+    </style>
+</head>
+<body>
+<div class="container mt-3">
+    <h1 class="hotel-title">Хотел А - Sunnymoon</h1>
+
+    <div id="hotelCarousel" class="carousel slide mb-3" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="https://m.bgvakancia.com/common_images/offers/782/bcd3abe99e67eb9695c5652919e04cd5.jpg" class="d-block w-100" alt="Снимка 1">
+            </div>
+            <div class="carousel-item">
+                <img src="https://cf.bstatic.com/xdata/images/hotel/max1024x768/572152776.jpg?k=a3b1fedca1b68b2319917acd5a340fa41960b70701e0842c1762ada209b02b03&o=" class="d-block w-100" alt="Снимка 2">
+            </div>
+            <div class="carousel-item">
+                <img src="https://cf.bstatic.com/xdata/images/hotel/max1024x768/572230068.jpg?k=e5112fc08cbdc7b5ea9124955bf59a3b772cd838ea2ef77af0d8133dec6dc5c0&o=" class="d-block w-100" alt="Снимка 3">
+            </div>
+            <div class="carousel-item">
+                <img src="https://cf.bstatic.com/xdata/images/hotel/max1024x768/572152756.jpg?k=6c71cfc39097c63ea8c484f7365e9460508be32897f563ab66ad58dbc615aa47&o=" class="d-block w-100" alt="Снимка 4">
+            </div>
+            <div class="carousel-item">
+                <img src="https://cf.bstatic.com/xdata/images/hotel/max1024x768/572230111.jpg?k=6bb3a4fc2a77e8083ef36e0d92bade3a97f90553d0c0ee869c385475f781bf6a&o=" class="d-block w-100" alt="Снимка 5">
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#hotelCarousel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#hotelCarousel" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        </button>
+    </div>
+
+    <a href="index.php" class="btn-register">Регистрация</a>
+
+    <p class="hotel-description">
+        Хотел А предлага комфортни стаи с изглед към морето, безплатен Wi-Fi, закуска и вечеря включени, както и паркинг за гости. Разположен е само на 750 метра от плажа. Идеален за семейства и двойки, търсещи релакс и удобство.
+    </p>
+
+    <div class="amenities">
+        <div class="amenity">Great for your stay</div>
+        <div class="amenity">Parking</div>
+        <div class="amenity">Restaurant</div>
+        <div class="amenity">Private bathroom</div>
+        <div class="amenity">Air conditioning</div>
+        <div class="amenity">Free Wifi</div>
+        <div class="amenity">Terrace</div>
+        <div class="amenity">Bathtub</div>
+        <div class="amenity">View</div>
+        <div class="amenity">Flat-screen TV</div>
+        <div class="amenity">Fitness center</div>
+    </div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
