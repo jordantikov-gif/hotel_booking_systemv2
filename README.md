@@ -58,8 +58,9 @@ This was my **first real-world PHP project**, and it helped me understand how to
 ---
 
 ## 📸 Screenshots
-<img width="844" height="417" alt="image" src="https://github.com/user-attachments/assets/18d39950-59e9-41b6-a118-f21a3d462d46" />
-<img width="952" height="384" alt="image" src="https://github.com/user-attachments/assets/c0c4e03f-b12f-4d11-90b4-e3d119115f89" />
+<img width="975" height="482" alt="image" src="https://github.com/user-attachments/assets/f8e28746-ad8f-45fe-b83d-06ed008b90ba" />
+
+<img width="975" height="393" alt="image" src="https://github.com/user-attachments/assets/9b8b0236-ac0b-4612-812b-8a1fc16e976a" />
 
 
 
