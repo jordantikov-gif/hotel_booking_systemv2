@@ -37,14 +37,14 @@ Each record can be **edited** or **deleted** through the interface.
 
 ## 🌐 Live Demo
 You can view the project here:  
-👉 [myprojectbookingsystem.gamer.gd/main.php](https://myprojectbookingsystem.gamer.gd/main.php)
+👉 https://projectbookingsystem.gamer.gd/main.php
 
 Admin login (for demo/testing):  
-👉 [myprojectbookingsystem.gamer.gd/login.php](https://myprojectbookingsystem.gamer.gd/login.php)
+👉 https://projectbookingsystem.gamer.gd/login.php
 
 Password 
 **username** - admin
-**password** - admin 
+**password** - 12345 
 
 ---
 
